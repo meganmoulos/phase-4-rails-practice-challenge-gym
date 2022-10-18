@@ -25,6 +25,7 @@ We're going to build an app for a Gym create the following database structure.
 You will have three models (and their corresponding tables), `Gym`, `Client` and
 `Membership`, with the following relationships:
 
+Client --< Membership >-- Gyms
 - A client has many gyms and has many memberships
 - A gym has many clients and has many memberships
 - A membership belongs to a gym and belongs to a client
